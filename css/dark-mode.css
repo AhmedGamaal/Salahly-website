@@ -1,0 +1,136 @@
+/* Dark Mode Styles */
+[data-theme="dark"] {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --background-color: #212529;
+    --text-color: #f8f9fa;
+    --card-bg: #343a40;
+    --navbar-bg: #343a40;
+    --border-color: #495057;
+    --hero-text-color: #ffffff;
+    --search-placeholder-color: #adb5bd;
+}
+
+[data-theme="dark"] body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .navbar {
+    background-color: var(--navbar-bg) !important;
+}
+
+[data-theme="dark"] .navbar-light .navbar-nav .nav-link {
+    color: var(--text-color);
+}
+
+/* Hero Section Dark Mode */
+[data-theme="dark"] .hero-section {
+    background: linear-gradient(rgba(33,37,41,0.9), rgba(33,37,41,0.9)), url('https://images.unsplash.com/photo-1527689368864-3a821dbccc34');
+}
+
+[data-theme="dark"] .hero-section h1,
+[data-theme="dark"] .hero-section p {
+    color: var(--hero-text-color) !important;
+}
+
+[data-theme="dark"] .search-container input {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .search-container input::placeholder {
+    color: var(--search-placeholder-color);
+}
+
+[data-theme="dark"] .card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .service-card,
+[data-theme="dark"] .provider-card,
+[data-theme="dark"] .testimonial-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .btn-outline-primary {
+    color: var(--text-color);
+    border-color: var(--primary-color);
+}
+
+[data-theme="dark"] .form-control {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .form-control:focus {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+}
+
+/* Search Results Dark Mode */
+[data-theme="dark"] .search-results {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .search-result {
+    border-bottom-color: var(--border-color);
+}
+
+[data-theme="dark"] .search-result h4 {
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .search-result p {
+    color: var(--text-color);
+}
+
+/* Navigation Links Dark Mode */
+[data-theme="dark"] .navbar-brand {
+    color: var(--hero-text-color) !important;
+}
+
+/* About Section Dark Mode */
+[data-theme="dark"] .about-section {
+    background-color: var(--background-color);
+}
+
+[data-theme="dark"] .stat-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+/* Footer Dark Mode */
+[data-theme="dark"] .footer {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .footer a {
+    color: var(--text-color);
+}
+
+/* Loading Screen Dark Mode */
+[data-theme="dark"] .loading-screen {
+    background-color: var(--background-color);
+    color: var(--hero-text-color);
+}
+.loading-content {
+    text-align: center;
+    color: white;
+}
+
+.loading-content img {
+    width: 100px; /* Adjust the size of your loading photo */
+    height: auto;
+}
+
+.loading-content p {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
